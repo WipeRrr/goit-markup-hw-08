@@ -104,6 +104,7 @@ body {
   letter-spacing: 0.06em;
   background: var(--acccent-color);
   color: #ffffff;
+cursor:pointer;
 }
 
 .hero-btn:hover,
@@ -204,6 +205,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  cursor:pointer;
 }
 .port-btn:hover,
 .port-btn:focus {
