@@ -42,11 +42,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-first {
+.logo-head-first {
   color: var(--acccent-color);
 }
 
-.logo-second {
+.logo-head-second {
   color: #000000;
 }
 
