@@ -118,6 +118,7 @@ body {
 
 .about-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--second-color);
@@ -171,6 +172,11 @@ body {
   font-style: normal;
   line-height: 1.71;
   color: #ffffff;
+}
+
+.footer-adress:hover,
+.footer-adress:focus {
+  color: var(--acccent-color);
 }
 
 .logo-second-footer {
