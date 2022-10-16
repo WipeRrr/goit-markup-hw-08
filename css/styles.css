@@ -16,6 +16,21 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .link {
@@ -41,7 +56,19 @@ body {
   overflow: hidden;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
 /* Header styles */
+.page-header {
+  padding-bottom: 1px;
+}
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -85,19 +112,26 @@ body {
 
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .hero-btn {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 216px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -106,6 +140,7 @@ body {
   background: var(--acccent-color);
   color: #ffffff;
   cursor: pointer;
+  text-align: center;
 }
 
 .hero-btn:hover,
@@ -116,6 +151,7 @@ body {
 /* ABOUT styles */
 
 .about-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -129,6 +165,7 @@ body {
 /* WHAT do styles */
 
 .headline {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -189,6 +226,10 @@ body {
 /* Portfolio styles */
 
 .port-btn {
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -197,6 +238,11 @@ body {
   background: #f5f4fa;
   cursor: pointer;
 }
+
+.all-btn {
+  padding: 6px 25px;
+}
+
 .port-btn:hover,
 .port-btn:focus {
   color: #fff;
@@ -204,12 +250,14 @@ body {
 }
 
 .port-text {
+  margin-top: 4px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-color);
 }
 
 .port-title {
+  margin-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
