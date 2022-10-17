@@ -196,6 +196,10 @@ img{
 
 /* ABOUT styles */
 
+.about{
+  padding-bottom: 0;
+}
+
 .flex-about{
   display: flex;
 }
