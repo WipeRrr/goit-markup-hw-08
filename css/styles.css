@@ -29,6 +29,12 @@ p {
   margin: 0;
 }
 
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -369,7 +375,7 @@ margin-top: 30px;
 }
 
 .projects .item{
-width:calc ((100%-60px) / 3);
+width: calc((100% - 60px) / 3);
 margin-right: 30px;
 margin-bottom: 30px;
 
@@ -383,10 +389,14 @@ margin-bottom: 30px;
 }
 
 .port-title {
-  margin-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-color);
+}
+
+.port-content{
+  padding: 20px 24px;
+  border: 1px solid #ECECEC;
 }
