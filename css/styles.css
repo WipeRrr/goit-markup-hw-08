@@ -178,6 +178,8 @@ img{
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 216px;
+  border: transparent;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
