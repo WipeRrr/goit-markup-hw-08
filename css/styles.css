@@ -394,4 +394,5 @@ flex-basis: calc((100% - 60px) / 3);
 .port-content{
   padding: 20px 24px;
   border: 1px solid #ECECEC;
+  border-top: transparent;
 }
