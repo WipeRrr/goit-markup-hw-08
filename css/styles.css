@@ -127,31 +127,20 @@ img{
   color: currentColor;
 }
 
-.head-contacts::before {
-  content: "";
+.icon-head {
   display: inline-flex;
-  margin-right: 10px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  
+ margin-right: 10px;
+fill:currentColor;
 }
 
-
-.mail::before{
-  width: 16px;
-  height: 12px;
-background-image: url("../images/envelope.svg");
+.thumb-head{
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
 }
 
-.phone::before {
-  width: 12px;
-  height: 16px;
-  background-image: url("../images/smartphone.svg");
-}
-
-.head-contacts:hover,
-.head-contacts:focus {
+.thumb-head:hover,
+.thumb-head:focus{
   color: var(--acccent-color);
 }
 
@@ -250,37 +239,20 @@ background-size: cover;
   gap: var(--main-gap);
 }
 
-.flex-about .item::before{
-  display: block;
-content: "";
-height: 120px;
+.thumb-about{
+height:120px;
 margin-bottom: 30px;
- background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto auto;
-  background-color: #F5F4FA;
+background-color: #F5F4FA;
+padding: 25px 100px;
 }
 
-.icon-antenna::before{
-background-image: url('../images/antenna.svg');
-}
-
-.icon-clock::before{
-  background-image: url('../images/clock.svg');;
-}
-.icon-diagram::before{
-  background-image: url('../images/diagram.svg');
-
-}
-.icon-astronaut::before{
-background-image: url('../images/astronaut.svg');
-}
 .flex-about .item{
 flex-basis: calc((100%-90px) / 4);
 
 }
 
 .about-title {
+ 
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
