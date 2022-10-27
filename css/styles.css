@@ -225,10 +225,13 @@ img {
 }
 
 .thumb-about {
+  display: flex;
+  width: 270px;
   height: 120px;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
   background-color: #f5f4fa;
-  padding: 25px 100px;
 }
 
 .flex-about .item {
@@ -308,6 +311,78 @@ img {
   font-size: 16px;
   line-height: 1.19;
   color: var(--main-color);
+  margin-bottom: 16px;
+}
+
+.team-list {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon-team {
+  width: 20px;
+  height: 20px;
+}
+
+.team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  fill: #afb1b8;
+}
+
+.team-link:hover,
+.team-link:focus {
+  fill: #ffffff;
+  background-color: var(--acccent-color);
+  border-radius: 50%;
+}
+
+/* Company Styles */
+
+.company-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--main-gap);
+}
+
+.item-company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.company-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
+  cursor: pointer;
+}
+
+.item-company:hover,
+.item-company:focus {
+  border: 1px solid var(--acccent-color);
+}
+.company-link:focus,
+.company-link:hover {
+  fill: var(--acccent-color);
+}
+
+.icon-company {
+  width: 106px;
+  height: 60px;
 }
 
 /* Footer styles */
@@ -354,6 +429,55 @@ img {
 .foot-logo {
   display: block;
   margin-bottom: 20px;
+}
+
+.foot-data {
+  margin-left: 70px;
+}
+
+.link-text {
+  /* margin-left: 70px; */
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #fff;
+}
+.flex-foot {
+  display: flex;
+  align-items: baseline;
+}
+
+.foot-list {
+  display: flex;
+  /* margin-left: 70px; */
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon-foot {
+  width: 20px;
+  height: 20px;
+}
+
+.foot-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  fill: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.foot-link:hover,
+.foot-link:focus {
+  fill: #ffffff;
+  background-color: var(--acccent-color);
+  border-radius: 50%;
 }
 
 /* Portfolio styles */
