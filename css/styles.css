@@ -259,7 +259,7 @@ img {
 }
 
 .flex-what-do .item {
-  flex-basis: calc((100%-60) / 3);
+  flex-basis: calc((100%-60px) / 3);
 }
 
 .headline {
