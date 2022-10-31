@@ -150,6 +150,7 @@ img {
 }
 
 .main-nav .link {
+  position: relative;
   display: block;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -161,6 +162,23 @@ img {
   gap: 50px;
   align-items: center;
 }
+
+.current::after{
+  content: '';
+  display: flex;
+    position: absolute;
+  top: 110%;
+    left: 50%;
+    right: 50%;
+  transform: translate(-50%,-50%);
+  width: 48px;
+  height: 4px;
+  background-color: #2196F3;
+  border-radius: 2px;
+}
+
+
+
 
 /* HERO styles */
 
@@ -269,6 +287,26 @@ img {
   line-height: 1.17;
   text-align: center;
   color: var(--second-color);
+}
+
+.product-thumb{
+  position: relative;
+}
+
+.what-text{
+  position: absolute;
+  display: flex;
+  width: 370px;
+  height: 70px;
+bottom: 0;
+align-items: center;
+justify-content: center;
+font-weight: 700;
+line-height: 1.14;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: rgba(47, 48, 58, 0.8);
+
 }
 
 /* TEAM styles */
@@ -541,3 +579,44 @@ img {
   border: 1px solid #ececec;
   border-top: transparent;
 }
+
+.port-thumb{
+  position: relative;
+}
+
+.over-text{
+  position: absolute;
+  min-width: 322px;
+  min-height: 168px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+opacity: 0;
+font-size: 18px;
+line-height: 1.56;
+color: #FFFFFF;
+z-index: 2 ;
+}
+
+.port-link:hover .over-text,
+.port-link:focus .over-text
+{
+  opacity: 1;}
+
+
+.port-link:hover::before,
+.port-link:focus::before
+{
+  opacity: 1;}
+
+.port-link::before{
+  position: absolute;
+  content: '';
+  display: flex;
+  width: 370px;
+  height: 294px;
+  z-index: 1;
+opacity: 0;
+  background: rgba(33, 150, 243, 0.9);
+}
+ 
