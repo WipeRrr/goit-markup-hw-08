@@ -46,13 +46,6 @@ img {
   text-decoration: none;
 }
 
-.current {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--acccent-color);
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -118,6 +111,14 @@ img {
 .head-link:focus {
   color: var(--acccent-color);
 }
+
+.current {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--acccent-color);
+}
+
 
 .head-contacts {
   display: inline-flex;
@@ -474,7 +475,7 @@ img {
 }
 
 .foot-data {
-  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .link-text {
