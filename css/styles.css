@@ -543,7 +543,7 @@ color: #FFFFFF;
 .sub-form{
   display: flex;
   align-items: center;
-  justify-content: baseline;
+  justify-content: center;
   width: 358px;
 height: 50px;
 font-size: 16px;
@@ -560,11 +560,14 @@ border-radius: 4px;
 }
 
 
-.sub-button{
+.sub-btn{
   width: 200px;
 height: 50px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
 
-
+  padding: 10px 28px;
 letter-spacing: 0.06em;
 
 font-weight: 700;
@@ -579,6 +582,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border: transparent;
 
+}
+
+.sub-icon{
+  margin-left: 10px;
+  fill: currentColor;
 }
 
 /* Portfolio styles */
@@ -703,6 +711,7 @@ border: transparent;
 }
 
 .modal {
+  
   position: absolute;
   min-width: 528px;
   min-height: 581px;
@@ -716,7 +725,6 @@ border: transparent;
 }
 
 .backdrop.is-hidden .modal {
-  /* transform: translateX(-70%) translateY(-50%); */
   transform: scaleX(0);
 }
 
@@ -742,4 +750,105 @@ border: transparent;
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+}
+
+.modal-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+
+}
+
+.form-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 448px;
+height: 40px;
+margin-top: 4px;
+margin-bottom: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+.send-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+height: 50px;
+margin-left: 164px;
+margin-right: 164px;
+padding: 10px 52px;
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: transparent;
+
+
+}
+
+.form-title{
+margin-top: 40px;
+margin-bottom: 12px;
+  font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.form-filed{
+  margin-right: 39px;
+  margin-left:41px;
+}
+
+.form-label{
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.01em;
+
+color: #757575;
+
+}
+
+.comment-item{
+width: 448px;
+height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+
+}
+
+.policy-form{
+  margin-left: 54px;
+  margin-right: 51px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+font-size: 14px;
+line-height: 1.71;
+color: var(--main-color);
+
+}
+
+.policy-link{
+  color: var(--acccent-color);
+
+}
+.policy{
+  margin-right: 8px;
 }
