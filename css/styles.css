@@ -768,8 +768,21 @@ width: 448px;
 height: 40px;
 margin-top: 4px;
 margin-bottom: 10px;
+padding: 0;
   border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+}
+
+.comment-item{
+height: 120px;
+padding: 12px 16px;
+
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.01em;
+
+color: rgba(117, 117, 117, 0.5);
+
 }
 
 .send-btn{
@@ -808,6 +821,7 @@ color: #212121;
 }
 
 .form-filed{
+  position: relative;
   margin-right: 39px;
   margin-left:41px;
 }
@@ -818,14 +832,6 @@ line-height: 1.17;
 letter-spacing: 0.01em;
 
 color: #757575;
-
-}
-
-.comment-item{
-width: 448px;
-height: 120px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
 
 }
 
@@ -850,4 +856,10 @@ text-underline-position: under;
 }
 .policy{
   margin-right: 8px;
+}
+
+.icon-modal{
+  position: absolute;
+  top: 50%;
+  left: 12px;
 }
