@@ -521,6 +521,66 @@ img {
   background-color: var(--acccent-color);
 }
 
+.foot-connect{
+  margin-right: 93px;
+}
+
+.sub-text{
+  font-weight: 700;
+line-height: 1.14;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #FFFFFF;
+
+}
+
+.sub-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sub-form{
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  width: 358px;
+height: 50px;
+font-size: 16px;
+line-height: 1.25;
+align-items: center;
+margin-top: 20px;
+margin-right: 12px;
+background: #2F303A;
+color: rgba(255, 255, 255, 0.6);
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+
+}
+
+
+.sub-button{
+  width: 200px;
+height: 50px;
+
+
+letter-spacing: 0.06em;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+
+
+
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: transparent;
+
+}
+
 /* Portfolio styles */
 
 .flex-btn {
