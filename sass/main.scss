@@ -1,2 +1,11 @@
-// Utils styles
-@import './utils/placeholders'
+// UTILS STYLES
+@import './utils/variables';
+@import './utils/v-hidden';
+@import './utils/placeholders';
+
+// BASE STYLES
+@import './base/base';
+@import './base/reset';
+
+// COMPONENTS STYLES
+@import './components/hero';
