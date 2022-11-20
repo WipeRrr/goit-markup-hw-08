@@ -1,0 +1,40 @@
+.what-do{
+    @extend %section;
+}
+
+.what-do__list--flex {
+    display: flex;
+    gap: var(--main-gap);
+}
+
+.what-do__item {
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.what-do__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--second-color);
+}
+
+.what-do__thumb {
+    position: relative;
+}
+
+.what-do__text {
+    position: absolute;
+    display: flex;
+    width: 370px;
+    height: 70px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgba(47, 48, 58, 0.8);
+}

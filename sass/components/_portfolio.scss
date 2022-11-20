@@ -1,0 +1,107 @@
+.port{
+    @extend %section;
+}
+.flex-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+}
+
+.port-btn {
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--second-color);
+    background: #f5f4fa;
+    cursor: pointer;
+    border: transparent;
+    transition: var(--trns--color), background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+            &:focus {
+                color: #fff;
+                background: var(--acccent-color);
+                box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+                    0px 2px 2px rgba(0, 0, 0, 0.12);
+            }
+}
+
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--main-gap);
+}
+
+.projects .item {
+    flex-basis: calc((100% - 60px) / 3);
+    border: 1px solid #eeeeee;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+                1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+}
+
+
+
+.port-text {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--main-color);
+}
+
+.port-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--second-color);
+}
+
+.port-content {
+    padding: 20px 24px;
+    border: 1px solid #ececec;
+    border-top: transparent;
+}
+
+.port-thumb {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.over-text {
+    position: absolute;
+    min-width: 322px;
+    min-height: 168px;
+    padding: 63px 24px;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #ffffff;
+}
+
+.port-overlay {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.9);
+    transform: translateY(101%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .port-link:hover &,
+        .port-link:focus & {
+            transform: translateY(0);
+        }
+}
+

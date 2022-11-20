@@ -1,0 +1,36 @@
+.about {
+    @extend %section;
+    padding-bottom: 0;
+}
+
+.about__list--flex {
+    display: flex;
+    gap: var(--main-gap);
+}
+
+.about__thumb {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #f5f4fa;
+}
+
+.about__item {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+.about__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
+
+.about__text {
+    line-height: 1.71;
+}
