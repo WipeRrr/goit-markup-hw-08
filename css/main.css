@@ -323,7 +323,6 @@ img {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -387,11 +386,11 @@ img {
   fill: #afb1b8;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
 }
 .social__link:hover, .social__link:focus {
   fill: #ffffff;
   background-color: var(--acccent-color);
-  border-radius: 50%;
 }
 
 .what-do__list--flex {
@@ -451,6 +450,15 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   gap: var(--main-gap);
+}
+
+.company-headline {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
 }
 
 .company-link {

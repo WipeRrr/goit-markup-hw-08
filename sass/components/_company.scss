@@ -9,6 +9,16 @@
     gap: var(--main-gap);
 }
 
+.company-headline{
+    margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+      
+        color: #212121;
+}
+
 .company-link {
     display: flex;
     width: 170px;
