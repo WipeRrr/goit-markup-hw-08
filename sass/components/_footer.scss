@@ -4,6 +4,20 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2f303a;
+    
+    
+}
+
+.flex-foot {
+    display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-direction: column;
+    @media screen and(min-width:$desktop){
+        display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+    }
 }
 
 .footer-contacts {
@@ -60,17 +74,12 @@
     color: #fff;
 }
 
-.flex-foot {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-
 .foot-list {
     display: flex;
     gap: 10px;
     text-align: center;
     justify-content: center;
+    
 }
 
 .icon-foot {
@@ -97,9 +106,9 @@
 
 
 
-.foot-connect {
-    margin-right: 93px;
-}
+// .foot-connect {
+//     margin-right: 93px;
+// }
 
 .sub-text {
     font-weight: 700;
@@ -112,6 +121,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    flex-direction: column;
 }
 
 .sub-form {
