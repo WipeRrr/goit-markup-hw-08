@@ -8,43 +8,38 @@
   justify-content: center;
   gap: var(--main-gap);
 
- 
-    @media screen and (min-width: $mobile) and (max-width:767px) {
-            flex-wrap: wrap;
-        }
-                @media screen and (min-width: $tablet) and (max-width:1199px) {
-                    flex-wrap: wrap;
-                }
-        
+  @media screen and (min-width: $mobile) and (max-width: 767px) {
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    flex-wrap: wrap;
+  }
 }
 
 .item-company {
-    @media screen and (min-width: $mobile) and (max-width:767px) {
-            flex-basis: calc((100% - 30px) / 2);
-            flex-wrap: wrap;
-        }
- 
+  @media screen and (min-width: $mobile) and (max-width: 767px) {
+    flex-basis: calc((100% - 30px) / 2);
+    flex-wrap: wrap;
+  }
 
-@media screen and (min-width: $tablet) and (max-width:1199px) {
-        flex-basis: calc((100% - 60px) / 4);
-        flex-wrap: wrap;
-    }
-
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    flex-basis: calc((100% - 60px) / 4);
+    flex-wrap: wrap;
+  }
 }
 
 .company-headline {
   margin-bottom: 50px;
   font-weight: 700;
-font-size: 28px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
 
   color: #212121;
 
-@media screen and (min-width: $desktop) {
-        font-size: 36px;
-    }
-
+  @media screen and (min-width: $desktop) {
+    font-size: 36px;
+  }
 }
 
 .company-link {
@@ -65,13 +60,12 @@ font-size: 28px;
   }
 
   @media screen and (min-width: $tablet) {
-      width: 226px;
+    width: 226px;
   }
 
   @media screen and (min-width: $desktop) {
     width: 170px;
   }
-  
 }
 
 .icon-company {
