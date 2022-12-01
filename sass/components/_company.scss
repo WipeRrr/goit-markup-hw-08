@@ -1,46 +1,81 @@
-.company{
-    @extend %section;
+.company {
+  @extend %section;
 }
 
 .company-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--main-gap);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--main-gap);
+
+ 
+    @media screen and (min-width: $mobile) and (max-width:767px) {
+            flex-wrap: wrap;
+        }
+                @media screen and (min-width: $tablet) and (max-width:1199px) {
+                    flex-wrap: wrap;
+                }
+        
 }
 
-.company-headline{
-    margin-bottom: 50px;
-        font-weight: 700;
+.item-company {
+    @media screen and (min-width: $mobile) and (max-width:767px) {
+            flex-basis: calc((100% - 30px) / 2);
+            flex-wrap: wrap;
+        }
+ 
+
+@media screen and (min-width: $tablet) and (max-width:1199px) {
+        flex-basis: calc((100% - 60px) / 4);
+        flex-wrap: wrap;
+    }
+
+}
+
+.company-headline {
+  margin-bottom: 50px;
+  font-weight: 700;
+font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: #212121;
+
+@media screen and (min-width: $desktop) {
         font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-      
-        color: #212121;
+    }
+
 }
 
 .company-link {
-    display: flex;
+  display: flex;
+  width: 210px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+  cursor: pointer;
+  transition: var(--trns--color), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    border-color: var(--acccent-color);
+    color: var(--acccent-color);
+  }
+
+  @media screen and (min-width: $tablet) {
+      width: 226px;
+  }
+
+  @media screen and (min-width: $desktop) {
     width: 170px;
-    height: 92px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    color: #afb1b8;
-    cursor: pointer;
-    transition: var(--trns--color), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:focus,
-        &:hover {
-            border-color: var(--acccent-color);
-            color: var(--acccent-color);
-        }
+  }
+  
 }
 
-
-
 .icon-company {
-    fill: currentColor;
-    width: 106px;
-    height: 60px;
+  fill: currentColor;
+  width: 106px;
+  height: 60px;
 }
