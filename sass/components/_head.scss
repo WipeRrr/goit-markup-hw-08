@@ -55,6 +55,7 @@
 .head-contacts {
     display: inline-flex;
     align-items: center;
+    margin-bottom: 10px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -75,9 +76,12 @@
 
 
 .site-nav {
-    display: flex;
-    margin-left: 93px;
-    gap: 50px;
+    display: none;
+    @media screen and(min-width:$tablet){
+        display: flex;
+            margin-left: 93px;
+            gap: 50px;
+    }
 }
 
 .main-nav .link {
@@ -94,10 +98,19 @@
 }
 
 .site-contacts {
-    display: flex;
+    display: none;
+    @media screen and(min-width:$tablet){
+    display: block;
     margin-left: auto;
-    gap: 50px;
-    align-items: center;
+ 
+  
+
+    }
+          @media screen and(min-width:$desktop) {
+              display: flex;
+              gap: 50px;
+             
+          }
 }
 
 .head-link::after {
