@@ -7,24 +7,17 @@
   align-items: center;
   justify-content: center;
   gap: var(--main-gap);
+flex-wrap: wrap;
 
-  @media screen and (min-width: $mobile) and (max-width: 767px) {
-    flex-wrap: wrap;
-  }
-  @media screen and (min-width: $tablet) and (max-width: 1199px) {
-    flex-wrap: wrap;
-  }
 }
 
 .item-company {
   @media screen and (min-width: $mobile) and (max-width: 767px) {
     flex-basis: calc((100% - 30px) / 2);
-    flex-wrap: wrap;
   }
 
   @media screen and (min-width: $tablet) and (max-width: 1199px) {
     flex-basis: calc((100% - 60px) / 4);
-    flex-wrap: wrap;
   }
 }
 
