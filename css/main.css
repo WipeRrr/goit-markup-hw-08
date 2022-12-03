@@ -1323,7 +1323,7 @@ img {
   width: 100vw;
   height: 100vh;
   padding: 48px 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 999;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);

@@ -32,8 +32,8 @@
   color: var(--acccent-color);
 }
 
-.menu-icon{
-    fill: currentColor;
+.menu-icon {
+  fill: currentColor;
 }
 
 .menu-container {
@@ -45,7 +45,7 @@
   width: 100vw;
   height: 100vh;
   padding: 48px 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 999;
 
   transform: translateX(100%);
@@ -62,78 +62,74 @@
   right: 16px;
   fill: var(--second-color);
   &:hover,
-  &:focus{
+  &:focus {
     fill: var(--acccent-color);
   }
 }
 
-.mobile-close{
-    fill: currentColor;
+.mobile-close {
+  fill: currentColor;
 }
 
 .mobile-menu {
   margin-bottom: auto;
 }
 
-
-
-.moblie-link{
+.moblie-link {
   display: block;
   padding: 16px;
 
-font-weight: 500;
-    font-size: 40px;
-    line-height: 1.18;
-    letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
 
-    color: var(--second-color);
+  color: var(--second-color);
 }
 
-.current{
-    color: var(--acccent-color);
+.current {
+  color: var(--acccent-color);
 }
 
+.mobile-phone {
+  display: inline-block;
+  margin-bottom: 32px;
 
-.mobile-phone{
-    display: inline-block;
-    margin-bottom: 32px;
-
-    font-weight: 500;
-        font-size: 34px;
-        line-height: 1.18;
-        letter-spacing: 0.02em;
-        color:var(--acccent-color);
-        
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: var(--acccent-color);
 }
 
-.mobile-mail{
-    font-weight: 500;
-        font-size: 24px;
-        line-height: 1.17;
-        letter-spacing: 0.02em;
-        color: var(--main-color);
+.mobile-mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
-.mobile-socials{
-    display: flex;
-    margin-top: 64px;
-    align-items: center;
-   justify-content: flex-start;
-   margin-right: 83px;
+.mobile-socials {
+  display: flex;
+  margin-top: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 83px;
 }
 
-.socials-line{
-    width: 0;
-        height: 22px;
-   margin-left: 10px;
-   margin-right: 10px;
-        border: 1px solid rgba(33, 33, 33, 0.2);
+.socials-line {
+  width: 0;
+  height: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.socials-link{
-    font-weight: 500;
-        font-size: 18px;
-        line-height: 1.22;
-        letter-spacing: 0.02em;
-        color: var(--acccent-color);
+.socials-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: var(--acccent-color);
 }
