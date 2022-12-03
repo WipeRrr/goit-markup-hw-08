@@ -16,39 +16,39 @@
 background-size: cover;
 // mobile screen 1x
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('/images/hero/bg_sm@1x.jpg');
+    url('../images/hero/bg_sm@1x.jpg');
 
   // Mobile retina
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('/images/hero/bg_sm@2x.jpg');
+      url('../images/hero/bg_sm@2x.jpg');
   }
 
 // tablet screen 1x
    @media screen and (min-width: $tablet){
 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-url('/images/hero/bg_m@1x.jpg');
+url('../images/hero/bg_m@1x.jpg');
 
 // tablet retina
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url('/images/hero/bg_m@2x.jpg');
+        url('../images/hero/bg_m@2x.jpg');
 }
 }
 
 // desktop screen 1x
 @media screen and (min-width: $desktop) {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url('/images/hero/bg_lg@1x.jpg');
+        url('../images/hero/bg_lg@1x.jpg');
 
     // desktop retina
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url('/images/hero/bg_lg@2x.jpg');
+            url('../images/hero/bg_lg@2x.jpg');
     }
 }
 
