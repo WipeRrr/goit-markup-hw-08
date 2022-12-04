@@ -1,6 +1,9 @@
 .about {
   @extend %section;
-  padding-bottom: 0;
+  // padding-bottom: 0;
+  @media screen and (min-width:$desktop){
+    padding-bottom: 0;
+  }
 }
 
 .about__list--flex {
