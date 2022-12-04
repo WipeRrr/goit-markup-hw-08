@@ -507,6 +507,17 @@ img {
   background-color: var(--acccent-color);
 }
 
+.what-do {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .what-do {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .what-do__list--flex {
   display: -webkit-box;
   display: -ms-flexbox;
