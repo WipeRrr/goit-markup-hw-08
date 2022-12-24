@@ -93,7 +93,10 @@
 }
 
 .port-content--first{
+ 
+  @media screen and(min-width:$tablet) and (max-width:1199.98px){
     padding-bottom:56px;
+    }
 }
 
 .port-thumb {
