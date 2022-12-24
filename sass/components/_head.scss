@@ -65,6 +65,10 @@
         &:focus {
             color: var(--acccent-color);
         }
+        @media screen and(max-width:1199px){
+            font-size: 12px;
+                line-height: 1.17;
+        }
 }
 
 .icon-head {
